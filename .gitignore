@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+env/
+venv/
+*.env
+
+# Large raw data (optional, remove if keeping data in repo)
+data/raw/*
+!data/raw/.gitkeep
+
+# Tableau temp files
+*.twb.tmp
